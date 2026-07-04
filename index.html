@@ -1,0 +1,295 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ardron Realm Quiz</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- Transition Overlay -->
+    <div id="Transition">
+
+        <img id="TransitionBackground" src="Assets/FullLeftRightFade.png">
+
+        <img id="TransitionEyes" src="Assets/VoidEyesBlack.png">
+
+        <div id="TransitionText"></div>
+
+    </div>
+    
+
+    <div id="BackgroundContainer">
+        <img id="RotatingVoid" src="Assets/Background.png">
+    </div>
+
+    <!-- Main Menu -->
+    <div id="MainMenuPage">
+
+        <img
+            id="VoidEyesMainMenu"
+            src="Assets/VoidEyesFull.png"
+        >
+
+        <div id="MainMenuTitle">
+
+            ...Welcome To The Edge Of The Void...
+
+        </div>
+
+        <div id="MainMenuDescription">
+
+            If you would like to gain entry into Ardron... <br>
+            You must first be placed into a realm. <br> <br>
+
+            Can't hardly have you floating amongst the Aether now can we?<br> <br> <br> <br>
+
+
+            
+            Every soul resonates with a Realm.<br>
+            They just might not know it yet....<br><br>
+
+            Through a series of questions, you'll discoverwhich Realm best reflects your ideals,ambitions, and way of thinking.<br><br>
+
+            There are no wrong answers.<br>
+            Only your own.<br>
+            I'll be watching your choices, and make a final judgement
+
+        </div>
+
+        <button class ="ArdronButton" id="MainMenuButton">
+
+            <div class="ButtonBackground"></div>
+
+            <div Class ="ButtonBorder"></div>
+
+            <div Class ="ButtonText"></div>
+
+        </button>
+
+    </div>
+
+    <!-- Quiz Placeholder -->
+
+    <div id="QuizPage">
+
+        <div id="InfoBox">
+            <img id ="ImageBoxBackground" src="Assets/InfoBox.png"></img>
+             <div id="InfoBoxQuestion">
+
+             </div>
+        </div>
+
+        <button class ="ArdronButton" id="Answer1">
+
+            <div class="ButtonBackground"></div>
+
+            <div Class ="ButtonBorder"></div>
+
+            <div Class ="ButtonText"></div>
+
+        </button>
+
+        <button class ="ArdronButton" id="Answer2">
+
+            <div class="ButtonBackground"></div>
+
+            <div Class ="ButtonBorder"></div>
+
+            <div Class ="ButtonText"></div>
+
+        </button>
+
+        <button class ="ArdronButton" id="Answer3">
+
+            <div class="ButtonBackground"></div>
+
+            <div Class ="ButtonBorder"></div>
+
+            <div Class ="ButtonText"></div>
+
+        </button>
+
+        <img
+            id="VoidEyesQuizPage"
+            src="Assets/VoidEyesFull.png"
+        >
+
+        <div id="RemainingText"></div>
+
+
+
+    </div>
+
+    <div id="TieBreakerPage">
+        <div id="TieBreakerText">
+            It seems you're at a crossroads...<br>
+            Sadly your mortal form cannot contain multiple colors of mana...<br><br>
+            You just pick one....which aligns with your true values.
+        </div>
+
+        
+
+        <div id="TieBreakerButtons">
+
+            <button class ="ArdronButton" id="TB1">
+
+                <div class="ButtonBackgroundTB"></div>
+
+                <div Class ="ButtonBorder"></div>
+
+                <div Class ="ButtonText"></div>
+
+            </button>
+
+            <div></div>
+
+            <button class ="ArdronButton" id="TB2">
+
+                <div class="ButtonBackgroundTB"></div>
+
+                <div Class ="ButtonBorder"></div>
+
+                <div Class ="ButtonText"></div>
+
+                </button>
+
+            <button class ="ArdronButton" id="TB3">
+
+                <div class="ButtonBackgroundTB"></div>
+
+                <div Class ="ButtonBorder"></div>
+
+                <div Class ="ButtonText"></div>
+
+            </button>
+
+            <img id="VoidEyesTieBreaker"src="Assets/VoidEyesFull.png">
+
+            <button class ="ArdronButton" id="TB4">
+
+                <div class="ButtonBackgroundTB"></div>
+
+                <div Class ="ButtonBorder"></div>
+
+                <div Class ="ButtonText"></div>
+
+            </button>
+
+            <button class ="ArdronButton" id="TB5">
+
+                <div class="ButtonBackgroundTB"></div>
+
+                <div Class ="ButtonBorder"></div>
+
+                <div Class ="ButtonText"></div>
+
+            </button>
+
+            <div></div>
+
+            <button class ="ArdronButton" id="TB6">
+
+                <div class="ButtonBackgroundTB"></div>
+
+                <div Class ="ButtonBorder"></div>
+
+                <div Class ="ButtonText"></div>
+
+            </button>
+
+        </div>
+
+
+    </div>
+
+    
+
+    <div id="ResultsPage">
+        <div id="RealmResultBackground"></div>
+
+        <img id="LeftBanner"> </img>
+        <img id="RightBanner"> </img>
+        <img id="Sigil"> </img>
+
+        <div id="ResultBox">
+            <img id ="ResultBoxBackground" src="Assets/InfoBox.png"></img>
+             <div id="RealmResultText">
+
+             </div>
+        </div>
+
+        <img id="VoidEyesResult"src="Assets/VoidEyesFull.png">
+
+        <button class ="ArdronButton" id="OnwardButton">
+
+            <div class="ButtonBackgroundTB"></div>
+
+            <div Class ="ButtonBorder"></div>
+
+            <div Class ="ButtonText"></div>
+
+        </button>
+    </div>
+
+    <div id = "FinalPage">
+
+        <img id = "FinalPageBackground" src="Assets/FinalPageBackground.png"></img>
+        <img id = "FinalPageVoid" src="Assets/Background.png"></img>
+        <img id = "DoorFrame" src="Assets/DoorFrameVoid.png"></img>
+        <img id = "DoorClosed" src="Assets/ClosedDoor.png"></img>
+        <img id = "DoorOpen" src="Assets/OpenDoor.png"></img>
+
+        <img id="VoidEyesFinalPage" src="Assets/VoidEyesFull.png">
+
+        <div id="FinalWordsText"></div>
+
+        <div id ="CodeText"> </div>
+
+        <button class ="ArdronButton" id="CopyCode">
+
+            <div class="ButtonBackground"></div>
+
+            <div Class ="ButtonBorder"></div>
+
+            <div Class ="ButtonText"></div>
+
+        </button>
+
+        <button class ="ArdronButton" id="NextButton">
+
+            <div class="ButtonBackground"></div>
+
+            <div Class ="ButtonBorder"></div>
+
+            <div Class ="ButtonText"></div>
+
+        </button>
+
+        <button class ="ArdronButton" id="WishList">
+
+            <div class="ButtonBackground"></div>
+
+            <div Class ="ButtonBorder"></div>
+
+            <div Class ="ButtonText"> WishList On Steam</div>
+
+        </button>
+
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
